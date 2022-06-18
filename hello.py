@@ -1,5 +1,13 @@
 import os
+import numpy as np
+import pandas as pd
 from utils.abs import get_abspath
+
+import warnings
+warnings.filterwarnings('error')
+  
+# displaying the warning message 
+warnings.warn('Warning Message: 4')
 
 try:
     print(x)
